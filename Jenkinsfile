@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git scm update') {
       steps {
-        git url: 'https://github.com/wooas1996/ktcloudinfrajenkins.git', branch: 'main'
+        git url: 'https://github.com/wooaos1996/ktcloudinfrajenkins.git', branch: 'main'
       }
     }
     stage('docker image build and push to hub') {
